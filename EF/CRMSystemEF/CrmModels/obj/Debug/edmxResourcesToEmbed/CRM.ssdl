@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Crm.Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="TableId" />
+    </Key>
+    <Property Name="TableId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DepId" Type="int" Nullable="false" />
+    <Property Name="PersonName" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="EntryTime" Type="smalldatetime" Nullable="false" />
+    <Property Name="TurnoverTime" Type="smalldatetime" Nullable="false" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="WebUserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="GangWeiId" Type="int" Nullable="false" />
+    <Property Name="WebPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="JinDieFUserID" Type="int" Nullable="false" />
+    <Property Name="QQAuthOpenId" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="QQAuthUserAccount" Type="varchar" MaxLength="256" Nullable="false" />
+    <Property Name="FenXiaoId" Type="int" Nullable="false" />
+    <Property Name="pageIndex" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="CrmModelsStoreContainer">
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

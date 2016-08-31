@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Crm.Models.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="TableId" />
+          </Key>
+          <Property Name="TableId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DepId" Type="int" Nullable="false" />
+          <Property Name="PersonName" Type="nvarchar" MaxLength="256" Nullable="false" />
+          <Property Name="EntryTime" Type="smalldatetime" Nullable="false" />
+          <Property Name="TurnoverTime" Type="smalldatetime" Nullable="false" />
+          <Property Name="Status" Type="int" Nullable="false" />
+          <Property Name="WebUserName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="GangWeiId" Type="int" Nullable="false" />
+          <Property Name="WebPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="JinDieFUserID" Type="int" Nullable="false" />
+          <Property Name="QQAuthOpenId" Type="varchar" MaxLength="256" Nullable="false" />
+          <Property Name="QQAuthUserAccount" Type="varchar" MaxLength="256" Nullable="false" />
+          <Property Name="FenXiaoId" Type="int" Nullable="false" />
+          <Property Name="pageIndex" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="CrmModelsStoreContainer">
+          <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Crm.Models" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Person">
+          <Key>
+            <PropertyRef Name="TableId" />
+          </Key>
+          <Property Name="TableId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DepId" Type="Int32" Nullable="false" />
+          <Property Name="PersonName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="EntryTime" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="TurnoverTime" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Status" Type="Int32" Nullable="false" />
+          <Property Name="WebUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="GangWeiId" Type="Int32" Nullable="false" />
+          <Property Name="WebPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="JinDieFUserID" Type="Int32" Nullable="false" />
+          <Property Name="QQAuthOpenId" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="QQAuthUserAccount" Type="String" MaxLength="256" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="FenXiaoId" Type="Int32" Nullable="false" />
+          <Property Name="pageIndex" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="CRMDatabaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Person" EntityType="Self.Person" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CrmModelsStoreContainer" CdmEntityContainer="CRMDatabaseEntities">
+          <EntitySetMapping Name="Person">
+            <EntityTypeMapping TypeName="Crm.Models.Person">
+              <MappingFragment StoreEntitySet="Person">
+                <ScalarProperty Name="TableId" ColumnName="TableId" />
+                <ScalarProperty Name="DepId" ColumnName="DepId" />
+                <ScalarProperty Name="PersonName" ColumnName="PersonName" />
+                <ScalarProperty Name="EntryTime" ColumnName="EntryTime" />
+                <ScalarProperty Name="TurnoverTime" ColumnName="TurnoverTime" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="WebUserName" ColumnName="WebUserName" />
+                <ScalarProperty Name="GangWeiId" ColumnName="GangWeiId" />
+                <ScalarProperty Name="WebPassword" ColumnName="WebPassword" />
+                <ScalarProperty Name="JinDieFUserID" ColumnName="JinDieFUserID" />
+                <ScalarProperty Name="QQAuthOpenId" ColumnName="QQAuthOpenId" />
+                <ScalarProperty Name="QQAuthUserAccount" ColumnName="QQAuthUserAccount" />
+                <ScalarProperty Name="FenXiaoId" ColumnName="FenXiaoId" />
+                <ScalarProperty Name="pageIndex" ColumnName="pageIndex" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

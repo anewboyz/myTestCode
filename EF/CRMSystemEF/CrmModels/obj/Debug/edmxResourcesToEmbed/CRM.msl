@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CrmModelsStoreContainer" CdmEntityContainer="CRMDatabaseEntities">
+    <EntitySetMapping Name="Person">
+      <EntityTypeMapping TypeName="Crm.Models.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="TableId" ColumnName="TableId" />
+          <ScalarProperty Name="DepId" ColumnName="DepId" />
+          <ScalarProperty Name="PersonName" ColumnName="PersonName" />
+          <ScalarProperty Name="EntryTime" ColumnName="EntryTime" />
+          <ScalarProperty Name="TurnoverTime" ColumnName="TurnoverTime" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="WebUserName" ColumnName="WebUserName" />
+          <ScalarProperty Name="GangWeiId" ColumnName="GangWeiId" />
+          <ScalarProperty Name="WebPassword" ColumnName="WebPassword" />
+          <ScalarProperty Name="JinDieFUserID" ColumnName="JinDieFUserID" />
+          <ScalarProperty Name="QQAuthOpenId" ColumnName="QQAuthOpenId" />
+          <ScalarProperty Name="QQAuthUserAccount" ColumnName="QQAuthUserAccount" />
+          <ScalarProperty Name="FenXiaoId" ColumnName="FenXiaoId" />
+          <ScalarProperty Name="pageIndex" ColumnName="pageIndex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

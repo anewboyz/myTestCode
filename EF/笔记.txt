@@ -1,0 +1,6 @@
+学习网址：
+北风网：http://edu.ibeifeng.com/view-video-id-78.html
+T4模板，自动生成model vs插件
+public partial class Person 
+	partial 属性，是部分，有扩展的情况下，可以再用这个名字建立相同的类，以免被生成的代码覆盖
+延迟加载，等待sql组装完成，再执行查询

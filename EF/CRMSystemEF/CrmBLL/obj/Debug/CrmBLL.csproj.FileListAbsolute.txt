@@ -1,0 +1,12 @@
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\CrmBLL.dll
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\CrmBLL.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\obj\Debug\CrmBLL.dll
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\obj\Debug\CrmBLL.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\CrmDAL.dll
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\CrmModels.dll
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\EntityFramework.dll
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\CrmDAL.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\CrmModels.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\EntityFramework.xml
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\CodeTest\EF\CRMSystemEF\CrmBLL\obj\Debug\CrmBLL.csprojResolveAssemblyReference.cache

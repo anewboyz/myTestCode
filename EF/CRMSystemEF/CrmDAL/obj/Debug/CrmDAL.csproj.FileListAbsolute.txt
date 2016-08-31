@@ -1,0 +1,10 @@
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\bin\Debug\CrmDAL.dll
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\bin\Debug\CrmDAL.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\obj\Debug\CrmDAL.dll
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\obj\Debug\CrmDAL.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\bin\Debug\CrmModels.dll
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\bin\Debug\EntityFramework.dll
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\bin\Debug\CrmModels.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\bin\Debug\EntityFramework.xml
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\CodeTest\EF\CRMSystemEF\CrmDAL\obj\Debug\CrmDAL.csprojResolveAssemblyReference.cache

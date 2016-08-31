@@ -1,0 +1,9 @@
+E:\CodeTest\EF\CRMSystemEF\CrmModels\bin\Debug\CrmModels.dll
+E:\CodeTest\EF\CRMSystemEF\CrmModels\bin\Debug\CrmModels.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmModels\obj\Debug\CrmModels.csprojResolveAssemblyReference.cache
+E:\CodeTest\EF\CRMSystemEF\CrmModels\obj\Debug\CrmModels.dll
+E:\CodeTest\EF\CRMSystemEF\CrmModels\obj\Debug\CrmModels.pdb
+E:\CodeTest\EF\CRMSystemEF\CrmModels\bin\Debug\CrmModels.dll.config
+E:\CodeTest\EF\CRMSystemEF\CrmModels\bin\Debug\EntityFramework.dll
+E:\CodeTest\EF\CRMSystemEF\CrmModels\bin\Debug\EntityFramework.xml
+E:\CodeTest\EF\CRMSystemEF\CrmModels\bin\Debug\zh-Hans\EntityFramework.resources.dll
